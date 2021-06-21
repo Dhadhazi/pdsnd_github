@@ -29,6 +29,7 @@ def data_divider():
 
 
 def runtime_calculator(func, data):
+    """ Calculates the runtime """
     print('\nCalculating statistics...\n')
     start_time = time.time()
     func(data)
