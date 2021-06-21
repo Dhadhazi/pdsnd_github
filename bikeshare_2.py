@@ -9,6 +9,7 @@ days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sun
 
 
 def ask_for_data(question, dataset, all_data=False):
+    """ Gets any question input for the user, and only returns if it's in the dataset """
     answer = ""
     while answer not in dataset:
         answer = input(question).lower()
@@ -21,6 +22,7 @@ def ask_for_data(question, dataset, all_data=False):
 
 
 def data_divider():
+    """ Called between each stat display """
     print("\n")
     print('-_' * 20)
     print("\n")
