@@ -37,6 +37,7 @@ def runtime_calculator(func, data):
 
 
 def stat_function_display(func, data):
+    """ Displays stats properly """
     runtime_calculator(func, data)
     data_divider()
 
