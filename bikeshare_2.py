@@ -22,6 +22,7 @@ def ask_for_data(question, dataset, all_data=False):
 
 
 def data_divider():
+    """ Called between each stat display """
     print("\n")
     print('-_' * 20)
     print("\n")
